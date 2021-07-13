@@ -172,6 +172,7 @@
     <gazebo>
       <plugin name="kobuki_controller" filename="libgazebo_ros_kobuki.so">
         <publish_tf>1</publish_tf>
+        <update_rate>50</update_rate>
         <left_wheel_joint_name>wheel_left_joint</left_wheel_joint_name>
         <right_wheel_joint_name>wheel_right_joint</right_wheel_joint_name>
         <wheel_separation>.230</wheel_separation>
